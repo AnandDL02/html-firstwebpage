@@ -1,0 +1,340 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+.div-logo-1 a:hover{
+    color:rgb(117,130,226);
+}
+.nav i:hover{
+    color:rgb(117,130,226);
+}
+
+* { box-sizing: border-box; }
+
+
+.carousel {
+    background: #EEE;
+}
+
+.carousel-cell {
+    width: 100%;
+    height: 550px;
+    margin-right: 10px;
+    border-radius: 5px;
+    counter-increment: gallery-cell;
+}
+
+
+.carousel-cell .img-1{
+    background-image:url(img/slide-01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+}
+.carousel-cell .img-2{
+    background-image:url(img/slide-02.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+}
+.carousel-cell .img-3{
+    background-image:url(img/slide-03.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+}
+.img-1 h3{
+    font-family: "Playfair Display", serif;
+}
+
+.img-1 p{
+    font-family: "Playfair Display", serif;
+}
+.img-2 h3{
+    font-family: "Playfair Display", serif;
+}
+
+.img-2 p{
+    font-family: "Playfair Display", serif;
+}
+.img-3 h3{
+    font-family: "Playfair Display", serif;
+}
+
+.img-3 p{
+    font-family: "Playfair Display", serif;
+}
+
+
+.man-22{
+    width: 369px;
+    height:249px;
+    background-image:url(img/banner-01.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  
+}
+.man-222{
+    width: 369px;
+    height:249px;
+    background-image:url(img/banner-02.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.man-2222{
+    width: 369px;
+    height:249px;
+    background-image:url(img/banner-03.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.man-333 p:hover{
+    color: black;
+    text-decoration: underline;
+}
+#b2:hover{
+    background-color: rgb(34,34,34);
+    color: white;
+}
+#b1:hover{
+    background-color: rgb(106,116,210);
+    color: white;
+}
+.div-33333333 i:hover{
+    color: rgb(106,116,210);
+  
+}
+.man-4444 a:hover{
+    color: rgb(106,116,210);
+}
+.man-4444 i:hover{
+    color: rgb(106,116,210);
+}
+.man-4444 input{
+
+    border-bottom: 2px solid;
+    background: none;
+    outline:none;
+
+}
+#b3:hover{
+    background-color: white;
+    color: rgb(106,116,210);
+}
+/*  */
+
+/*  */
+
+/*  */
+.man-22::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(133,145,222);
+    opacity: 80%;
+    display: none;
+}
+
+.man-22:hover::before{
+    display: block;
+}
+/* 1 */
+
+/* 1 */
+.man-222::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(133,145,222);
+    opacity: 80%;
+    display: none;
+}
+.man-222:hover::before{
+    display: block;
+  
+}
+.man-2222::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(133,145,222);
+    opacity: 80%;
+    display: none;
+}
+.man-2222:hover::before{
+    display: block;
+}
+.man-2:hover .man-22{
+    color: white;
+    transition: 0.2s;
+}
+.man-2:hover .man-222{
+    color: white;
+   
+}
+.man-2:hover .man-2222{
+    color: white;
+
+}
+#btn-5{
+    position: relative;
+    left: -25%;
+    bottom: 0%;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.man-2:hover #btn-5{
+    bottom: 20%;
+    opacity: 1;
+    color: white;
+    transition: 0.5s;
+}
+#btn-5::after{
+    content: "";
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width: 0%;
+    height: 3px;
+    top: 25px;
+    left: 50%;
+    right: 50%;
+    transition: 1s;
+}
+.man-2:hover #btn-5::after{
+    left: 0%;
+    right: 0%;
+    width: 100%;
+    transition: 1s;
+}
+#btn-7{
+    position: relative;
+    left: -25%;
+    bottom: 0%;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.man-2:hover #btn-7{
+    bottom: 20%;
+    opacity: 1;
+    color: white;
+    transition: 0.5s;
+}
+#btn-7::after{
+    content: "";
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width: 0%;
+    height: 3px;
+    top: 25px;
+    left: 50%;
+    right: 50%;
+    transition: 1s;
+}
+.man-2:hover #btn-7::after{
+    left: 0%;
+    right: 0%;
+    width: 100%;
+    transition: 1s;
+}
+
+
+
+#btn-9{
+    position: relative;
+    left: -25%;
+    bottom: 0%;
+    opacity: 0;
+    transition: 0.5s;
+}
+
+.man-2:hover #btn-9{
+    bottom: 20%;
+    opacity: 1;
+    color: white;
+    transition: 0.5s;
+}
+#btn-9::after{
+    content: "";
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    width: 0%;
+    height: 3px;
+    top: 25px;
+    left: 50%;
+    right: 50%;
+    transition: 1s;
+}
+.man-2:hover #btn-9::after{
+    left: 0%;
+    right: 0%;
+    width: 100%;
+    transition: 1s;
+}
+  /*  */
+.man-333333{
+    position: relative;
+    overflow: hidden;
+} 
+    
+.man-333333 .btn4{
+    width:150px;
+    height:40px;
+    border-radius:50px;
+    background-color: white;
+    position: absolute;
+    bottom: -50px;
+    transition:0.6s;
+    left: 60px;
+}
+.man-333333:hover .btn4{
+    bottom: 10px;
+    left: 60px;
+    transition:0.6s;
+}
+.man-333333:hover img{
+    transform: scale(1.1);
+    transition: 2s;
+}
+.btn4:hover{
+    background-color:rgb(34,34,34);
+    color:white;
+    /* transition: 0.2s; */
+}
+
+.man-333333333333 #btn-6{
+  background-color: rgb(230,230,230);
+}
+.man-333333333333 #btn-6:hover{
+  background-color:rgb(34,34,34);
+  color: white;
+}
+ /*  */   
+.background{
+    background-color: white;
+}
+    
